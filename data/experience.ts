@@ -1,0 +1,42 @@
+import type { Experience } from "@/types"
+
+export const experiences: Experience[] = [
+  {
+    role: "Generative AI Engineer & Python Backend Developer",
+    company: "Vision Byte Technologies",
+    location: "Islamabad, Pakistan",
+    startDate: "Jan 2023",
+    endDate: "Aug 2025",
+    bullets: [
+      "Architected and deployed multi-agent AI systems handling 100K+ daily API requests with 99.9% uptime using LangGraph, FastAPI, and AWS ECS.",
+      "Built enterprise RAG pipelines processing 2M+ documents with hybrid search (semantic + keyword), reducing retrieval latency by 60%.",
+      "Fine-tuned Llama 3 and Mistral models using LoRA/QLoRA achieving 35% improvement in task-specific accuracy across 5 client domains.",
+      "Developed HIPAA-compliant healthcare AI platform featuring real-time NER, medical entity extraction, and automated clinical summarisation.",
+      "Designed and maintained event-driven microservices architecture handling 50K+ monthly active users with Celery, Redis, and PostgreSQL.",
+      "Implemented LLM evaluation pipeline with DeepEval and LangFuse reducing hallucination rates from 18% to 4% across production systems.",
+      "Led migration from monolithic Flask to microservices FastAPI, improving deployment frequency by 3x and reducing p95 latency by 45%.",
+      "Built real-time voice AI pipeline with Whisper and TTS achieving <500ms transcription latency for 10+ languages.",
+      "Created automated CI/CD pipelines with GitHub Actions, Docker, and Terraform reducing deployment time from 2 hours to 12 minutes.",
+      "Mentored 4 junior engineers through code reviews, pair programming, and internal tech talks on LLM best practices.",
+      "Collaborated with product teams to define AI solution roadmaps aligned with business KPIs and compliance requirements.",
+      "Integrated 15+ third-party APIs including OpenAI, Anthropic, Twilio, and Stripe with robust error handling and retry logic.",
+    ],
+    techStack: ["Python", "LangChain", "LangGraph", "FastAPI", "AWS", "Docker", "Pinecone", "PostgreSQL", "Redis", "Celery", "Terraform", "GitHub Actions"],
+  },
+  {
+    role: "ML & Deep Learning Engineer",
+    company: "Dot Coder",
+    location: "KPK, Pakistan",
+    startDate: "Jan 2021",
+    endDate: "Nov 2022",
+    bullets: [
+      "Developed and deployed computer vision models for object detection and image classification achieving 94% mAP on production data.",
+      "Built end-to-end ML pipelines with TensorFlow Extended (TFX) for automated model training, evaluation, and deployment.",
+      "Optimized deep learning inference pipelines achieving 3x throughput improvement via model quantization and ONNX runtime.",
+      "Created interactive dashboards with Streamlit for real-time model monitoring, drift detection, and performance visualisation.",
+      "Designed RESTful APIs with Flask serving 10K+ daily predictions with comprehensive logging and monitoring.",
+      "Implemented data preprocessing pipelines handling 500GB+ of unstructured data with automated quality checks.",
+    ],
+    techStack: ["Python", "TensorFlow", "PyTorch", "Keras", "Flask", "Docker", "Streamlit", "OpenCV", "Scikit-learn", "Pandas", "NumPy", "MLflow"],
+  },
+]
