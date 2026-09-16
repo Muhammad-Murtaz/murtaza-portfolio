@@ -2,6 +2,19 @@ import type { Experience } from "@/types"
 
 export const experiences: Experience[] = [
   {
+    role: "Generative AI Engineer",
+    company: "Highbro Technology",
+    location: "Remote",
+    startDate: "Dec 2025",
+    endDate: "May 2026",
+    bullets: [
+      "Built advanced multi-agent systems and voice integration pipelines for enterprise clients, leveraging LangChain, LangGraph, and LlamaIndex for complex workflow orchestration.",
+      "Developed NLP solutions and machine learning architectures, including custom RAG pipelines and fine-tuned LLMs, to automate document processing and conversational AI tasks.",
+      "Collaborated with cross-functional teams to deliver production-ready AI systems, ensuring scalability and performance optimization on cloud infrastructure.",
+    ],
+    techStack: ["Python", "LangChain", "LangGraph", "LlamaIndex", "FastAPI", "AWS", "Docker"],
+  },
+  {
     role: "Generative AI Engineer & Python Backend Developer",
     company: "Vision Byte Technologies",
     location: "Islamabad, Pakistan",

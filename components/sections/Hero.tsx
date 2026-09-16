@@ -38,13 +38,13 @@ export default function Hero() {
       } else {
         timeout = setTimeout(() => setIsDeleting(true), 2000)
       }
+    } else if (text.length > 0) {
+      timeout = setTimeout(() => setText(text.slice(0, -1)), 40)
     } else {
-      if (text.length > 0) {
-        timeout = setTimeout(() => setText(text.slice(0, -1)), 40)
-      } else {
+      timeout = setTimeout(() => {
         setIsDeleting(false)
         setTitleIndex((prev) => (prev + 1) % titles.length)
-      }
+      }, 0)
     }
 
     return () => clearTimeout(timeout)
