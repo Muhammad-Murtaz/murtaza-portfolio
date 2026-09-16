@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { Mail, ArrowDown, Download } from "lucide-react"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { ArrowDown, Download } from "lucide-react"
+import { FaLinkedin } from "react-icons/fa"
 
 const titles = [
   "AI Agent Systems Architect",
@@ -156,14 +156,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.7 }}
             className="mt-8 flex items-center justify-center gap-5 lg:justify-start"
           >
-            <a href="https://github.com/Muhammad-Murtaz" target="_blank" rel="noopener noreferrer" className="text-slate-500 transition-colors hover:text-violet-400">
-              <FaGithub className="h-5 w-5" />
-            </a>
             <a href="https://www.linkedin.com/in/muhammad-murtaza-144a3a223/" target="_blank" rel="noopener noreferrer" className="text-slate-500 transition-colors hover:text-violet-400">
               <FaLinkedin className="h-5 w-5" />
-            </a>
-            <a href="mailto:muhammadmurtaza6211@gmail.com" className="text-slate-500 transition-colors hover:text-violet-400">
-              <Mail className="h-5 w-5" />
             </a>
           </motion.div>
         </div>

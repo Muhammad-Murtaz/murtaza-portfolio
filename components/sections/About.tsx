@@ -5,7 +5,7 @@ import SectionWrapper from "@/components/shared/SectionWrapper"
 import { MapPin, Clock, Globe, Briefcase } from "lucide-react"
 
 const quickFacts = [
-  { icon: Briefcase, label: "Experience", value: "4+ Years" },
+  { icon: Briefcase, label: "Experience", value: "5+ Years" },
   { icon: MapPin, label: "Location", value: "Islamabad, PK" },
   { icon: Globe, label: "Languages", value: "English, Urdu" },
   { icon: Clock, label: "Availability", value: "Remote Global" },
@@ -14,6 +14,7 @@ const quickFacts = [
 const timeline = [
   { year: "2021", role: "ML Engineer", company: "Dot Coder" },
   { year: "2023", role: "GenAI Engineer", company: "Vision Byte" },
+  { year: "2025", role: "GenAI Engineer", company: "Highbro Tech" },
   { year: "2026", role: "Open to New Roles", company: "" },
 ]
 
@@ -29,7 +30,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-base sm:text-lg leading-relaxed text-slate-300"
           >
-            I&apos;m a Senior Python AI Engineer based in Islamabad, Pakistan (UTC+5), with over 4 years of experience
+            I&apos;m a Senior Python AI Engineer based in Islamabad, Pakistan (UTC+5), with over 5 years of experience
             designing and deploying production-grade AI systems. My expertise spans the full AI stack — from
             fine-tuning large language models and building multi-agent orchestration systems to architecting
             high-performance RAG pipelines and speech AI solutions.
@@ -41,8 +42,8 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-base sm:text-lg leading-relaxed text-slate-400"
           >
-            At Vision Byte Technologies, I architected AI systems handling 100K+ daily requests and built
-            HIPAA-compliant healthcare platforms. I&apos;m passionate about bridging the gap between cutting-edge
+            At Vision Byte Technologies and Highbro Technology, I architected AI systems handling 100K+ daily requests
+            and built HIPAA-compliant healthcare platforms. I&apos;m passionate about bridging the gap between cutting-edge
             AI research and real-world production systems that deliver measurable business impact.
           </motion.p>
           <motion.p

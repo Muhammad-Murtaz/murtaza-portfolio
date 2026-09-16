@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Mail, MapPin, Phone, Copy, Check, Send } from "lucide-react"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
 import SectionWrapper from "@/components/shared/SectionWrapper"
 
 export default function Contact() {
@@ -70,9 +70,6 @@ export default function Contact() {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="https://github.com/Muhammad-Murtaz" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-800 text-slate-500 transition-all hover:border-violet-500 hover:text-violet-400">
-              <FaGithub className="h-4 w-4" />
-            </a>
             <a href="https://www.linkedin.com/in/muhammad-murtaza-144a3a223/" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-800 text-slate-500 transition-all hover:border-violet-500 hover:text-violet-400">
               <FaLinkedin className="h-4 w-4" />
             </a>

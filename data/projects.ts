@@ -7,7 +7,6 @@ export const projects: Project[] = [
     description: "Production-grade AI career SaaS with 8 intelligent tools, multi-agent orchestration, and real-time ATS scoring.",
     longDescription: "A production AI-powered career platform featuring 8 intelligent tools: ATS-optimized resume builder, cover letter generator, voice mock interviews, skills-gap analysis, job matching, career-path planning, and more. Built with a multi-agent architecture: LangChain for structured output chaining, LangGraph for supervisor-orchestrated agent pipelines, and LangSmith for production tracing and observability. Features RAGAS-based hallucination detection, deterministic scoring algorithms, and Redis-backed semantic caching. Tools share a common agent infrastructure rather than running as isolated pipelines.",
     media: [
-      { type: "video", src: "/videos/gethirevault.mp4" },
       { type: "image", src: "/images/gethirevault.jfif" },
     ],
     techStack: ["Next.js 15", "LangChain", "LangGraph", "LangSmith", "RAGAS", "Supabase Auth", "Supabase", "Drizzle ORM", "DeepInfra", "Deepgram", "Upstash Redis"],
@@ -62,29 +61,6 @@ export const projects: Project[] = [
       { type: "image", src: "/images/agentic_rag.png" },
     ],
     techStack: ["LLM Fine-Tuning", "NER", "FastAPI", "RAG", "DeepEval", "Ragas", "HIPAA"],
-    featured: false,
-  },
-  {
-    id: "voice-medical-assistant",
-    title: "Voice Medical Assistant - MediSynapse",
-    description: "HIPAA-compliant voice AI assistant combining RAG, computer vision, and speech recognition.",
-    longDescription: "Developed HIPAA-compliant voice AI assistant combining RAG, computer vision, and speech recognition with custom TTS for hands-free medical workflow automation. Reduced manual clinical tasks by 45% through intelligent voice-driven interaction and document retrieval with real-time streaming responses.",
-    media: [
-      { type: "image", src: "/images/ai_career_coach.jpg" },
-    ],
-    techStack: ["Whisper ASR", "RAG", "Vision", "TTS", "HIPAA", "FastAPI"],
-    featured: false,
-  },
-  {
-    id: "llm-fine-tuning-pipeline",
-    title: "LLM Fine-Tuning Pipeline",
-    description: "Production-grade fine-tuning pipeline using LoRA/QLoRA with benchmark visualisation and model registry.",
-    longDescription: "A robust pipeline for fine-tuning LLMs with LoRA and QLoRA, featuring automated benchmarking, model comparison, and Hugging Face model registry integration.",
-    media: [
-      { type: "image", src: "/images/agentic_rag.png" },
-    ],
-    techStack: ["Llama 3", "LoRA", "QLoRA", "Unsloth", "Hugging Face", "Axolotl", "W&B", "MLflow"],
-    githubUrl: "https://github.com/Muhammad-Murtaz/agentic-rag",
     featured: false,
   },
 ]
