@@ -7,20 +7,20 @@ import { Mail, ArrowDown, Download } from "lucide-react"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 const titles = [
-  "Senior Python AI Engineer",
-  "AI Agents & LLM Systems Architect",
-  "RAG Pipeline Specialist",
-  "LLM Fine-Tuning Engineer",
+  "AI Agent Systems Architect",
+  "Senior AI Agent Developer",
+  "Multi-Agent Pipeline Engineer",
+  "LLM Orchestration Specialist",
 ]
 
 const stats = [
   { value: "100K+", label: "Daily Requests" },
   { value: "2M+", label: "Docs Processed" },
   { value: "50K+", label: "Monthly Users" },
-  { value: "35%", label: "LLM Perf Gains" },
+  { value: "9+", label: "Parallel Agents" },
 ]
 
-const techBadges = ["Python", "LangChain", "GPT-4", "FastAPI", "AWS"]
+const techBadges = ["LangChain", "LangGraph", "CrewAI", "FastAPI", "Python"]
 
 export default function Hero() {
   const [titleIndex, setTitleIndex] = useState(0)
@@ -107,7 +107,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-6 max-w-xl text-lg text-slate-400 lg:text-xl"
           >
-            4+ years building production AI systems that scale.
+            5+ years building production multi-agent systems with LangChain, LangGraph, and RAG.
           </motion.p>
 
           <motion.div
@@ -142,7 +142,7 @@ export default function Hero() {
               <ArrowDown className="h-4 w-4" />
             </a>
             <a
-              href="/resume/Resume_New.pdf" target="_blank"
+              href="/resume/Muhammad_Murtaza_Resume.pdf" target="_blank"
               className="inline-flex items-center gap-2 rounded-full border border-zinc-700 px-6 py-3 text-sm font-medium text-slate-300 transition-all hover:border-violet-500 hover:text-white"
             >
               <Download className="h-4 w-4" />

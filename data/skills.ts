@@ -9,7 +9,7 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "AI Agents & Orchestration",
     icon: "bot",
-    skills: ["LangChain", "LangGraph", "LangSmith", "CrewAI", "AutoGen", "Semantic Kernel", "Swarm", "Agents SDK"],
+    skills: ["LangChain", "LangGraph", "LangSmith", "LlamaIndex", "CrewAI", "AutoGen", "Multi-Agent Orchestration", "Tool Integration", "Stateful Memory", "Human-in-the-Loop"],
   },
   {
     category: "LLMs & Generative AI",
